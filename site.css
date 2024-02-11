@@ -1,0 +1,23 @@
+#container_index {
+    text-align: center;
+}
+
+div.goalone, div.goalthree {
+    text-align: left;
+}
+
+div.goaltwo {
+    text-align: right;
+}
+
+div.hobbyone {
+    text-align: left;
+}
+
+div.hobbytwo {
+    text-align: center;
+}
+
+div.hobbythree {
+    text-align: right;
+}
