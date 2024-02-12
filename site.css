@@ -1,5 +1,6 @@
 #container_index {
     text-align: center;
+    color: #740f08;
 }
 
 div.goalone, div.goalthree {
@@ -20,4 +21,103 @@ div.hobbytwo {
 
 div.hobbythree {
     text-align: right;
+}
+
+#navbar {
+    overflow: hidden;
+    background-color: #024222;
+    height: 40px;
+    border-width: 100%;
+    border-bottom: solid 20px darkgray;
+}
+
+#navbar a {
+    text-decoration: none;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    display: block;
+    float: left;
+}
+
+#navbar a:hover {
+    background-color: #7C3587;
+    color: black;
+}
+
+figure {
+    text-align: center;
+}
+
+figcaption {
+    font-style: italic;
+}
+
+#container_hobbies {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+}
+
+div.goalone, div.goaltwo, div.goalthree {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+}
+
+div.goaltwo img {
+    left: 0%;
+}
+
+body {
+    background-color: #00e9d9;
+}
+
+p {
+    color: #740f08;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: larger;
+}
+
+h1, h1.name_index{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header h1 {
+    text-align: center;
+}
+
+header {
+    background-color: #00064D;
+    padding: 15px;
+    text-align: center;
+    color: #740f08;
+}
+
+footer {
+    padding-left: 10px;
+    bottom: 0;
+    left: 0;
+    background-color: #00064D;
+    width: 100%;
+    position: fixed;
+}
+
+footer #copyrightf {
+    font-size: large;
+    margin-top: 0;
+    font-style: italic;
+    font-weight: bold;
+}
+
+div.box {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,.2);
+    transition: .3s;
+    width: 50%;
+}
+
+div.box_title {
+    text-align: center;
+}
+
+body.othersites {
+    align-items: center;
 }
