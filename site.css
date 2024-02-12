@@ -23,6 +23,10 @@ div.hobbythree {
     text-align: right;
 }
 
+div.hobbyone p, div.hobbytwo p, div.hobbythree p {
+    text-align: center;
+}
+
 #navbar {
     overflow: hidden;
     background-color: #024222;
@@ -56,6 +60,7 @@ figcaption {
 #container_hobbies {
     display: grid;
     grid-template-columns: auto auto auto auto;
+    padding-top: 20px;
 }
 
 div.goalone, div.goaltwo, div.goalthree {
