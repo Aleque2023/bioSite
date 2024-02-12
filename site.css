@@ -55,6 +55,7 @@ figure {
 
 figcaption {
     font-style: italic;
+    color: #740f08;
 }
 
 #container_hobbies {
@@ -125,4 +126,29 @@ div.box_title {
 
 body.othersites {
     align-items: center;
+}
+
+#CSD_link {
+    margin-left: 1000px;
+    margin-right: 0;
+    margin-bottom: 0;
+}
+
+footer a {
+    text-decoration: none;
+    color: white;
+}
+
+footer a:hover {
+    color: #7C3587;
+}
+
+div.box_content a{
+    text-decoration: none;
+    color: black;
+}
+
+div.box_content a:hover {
+    color: #7C3587;
+    text-decoration: underline;
 }
