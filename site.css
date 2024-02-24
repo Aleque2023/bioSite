@@ -1,6 +1,7 @@
 #container_index {
     text-align: center;
     color: #740f08;
+    padding-bottom: 200px;
 }
 
 div.goalone, div.goalthree {
@@ -19,6 +20,11 @@ div.hobbytwo {
     text-align: center;
 }
 
+#line {
+    border-left: black solid 1px;
+    height: 100%;
+}
+
 div.hobbythree {
     text-align: right;
 }
@@ -28,11 +34,12 @@ div.hobbyone p, div.hobbytwo p, div.hobbythree p {
 }
 
 #navbar {
+    width: 100%;
     overflow: hidden;
     background-color: #024222;
     height: 40px;
     border-width: 100%;
-    border-bottom: solid 20px darkgray;
+    border-bottom: solid 20px lightskyblue;
 }
 
 #navbar a {
@@ -46,7 +53,7 @@ div.hobbyone p, div.hobbytwo p, div.hobbythree p {
 
 #navbar a:hover {
     background-color: #7C3587;
-    color: black;
+    color: orange;
 }
 
 figure {
@@ -93,13 +100,17 @@ header h1 {
 
 header {
     background-color: #00064D;
-    padding: 15px;
-    text-align: center;
-    color: #740f08;
+    color: orange;
+    width: 100%;
+    top: 0; left: 0;
+    position: absolute;
+}
+
+body {
+    padding-top: 100px;
 }
 
 footer {
-    padding-left: 10px;
     bottom: 0;
     left: 0;
     background-color: #00064D;
@@ -107,11 +118,17 @@ footer {
     position: fixed;
 }
 
-footer #copyrightf {
+#CSD_link {
+    float: right;
+    margin-bottom: 0;
+}
+
+#copyrightf {
     font-size: large;
     margin-top: 0;
     font-style: italic;
     font-weight: bold;
+    padding-left: 10px;
 }
 
 div.box {
@@ -129,14 +146,17 @@ body.othersites {
 }
 
 #CSD_link {
-    margin-left: 1000px;
-    margin-right: 0;
-    margin-bottom: 0;
+
+    padding-right: 0%;
+}
+
+#copyrightf {
+    color: orange;
 }
 
 footer a {
     text-decoration: none;
-    color: white;
+    color: orange;
 }
 
 footer a:hover {
@@ -151,4 +171,20 @@ div.box_content a{
 div.box_content a:hover {
     color: #7C3587;
     text-decoration: underline;
+}
+
+div.goalthree {
+    padding-bottom: 200px;
+}
+
+div.goalone_txt, div.goaltwo_txt, div.goalthree_txt {
+    padding-top: 125px;
+}
+
+#hobby_body {
+    padding-bottom: 200px;
+}
+
+#container_index, #container_about, #container_hobbies, #container_othersites {
+    padding-top: 100px;
 }
