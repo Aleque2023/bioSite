@@ -132,9 +132,15 @@ footer {
 }
 
 div.box {
-    box-shadow: 0 4px 8px 0 rgba(0,0,0,.2);
+    box-shadow: 4px 4px 8px 4px rgba(0,0,0,.2);
     transition: .3s;
     width: 50%;
+}
+
+div.box:hover {
+    box-shadow: 4px 4px 4px 4px rgba(.1,.1,.1,.3);
+    transition: .4s;
+
 }
 
 div.box_title {
@@ -160,7 +166,7 @@ footer a {
 }
 
 footer a:hover {
-    color: #7C3587;
+    color: white;
 }
 
 div.box_content a{
@@ -187,4 +193,22 @@ div.goalone_txt, div.goaltwo_txt, div.goalthree_txt {
 
 #container_index, #container_about, #container_hobbies, #container_othersites {
     padding-top: 100px;
+}
+
+#container_othersites {
+    align-items: center;
+    padding-left: 35%;
+    padding-right: 40%;
+    width: 55%;
+}
+
+div.hobbyone:hover, div.hobbytwo:hover, div.hobbythree:hover {
+    box-shadow: 4px 4px 8px 4px rgba(0,0,0,.2);
+    transition: .3s;
+    width: 100%;
+}
+
+div.goaltwo:hover #g2, div.goalone:hover #g1, div.goalthree:hover #g3 {
+    box-shadow: 16px 1px 2px 4px rgba(.1,.1,.1,.2);
+    transition: .3s;
 }
